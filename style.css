@@ -47,6 +47,7 @@ header {
 .logo {
   max-width: 100px;
   height: auto;
+  filter: drop-shadow(4px 6px 6px rgba(255, 251, 0, 0.5));
 }
 
 h1 {
@@ -56,11 +57,15 @@ h1 {
 }
 
 /* الصندوق */
+.main-container{
+    display: flex;
+    justify-content: center;
+}
 .container {
   /*margin: 0px auto;
   margin-top: 10px;*/
   margin: 0px ;
-  min-width: 50%;
+  min-width: 40%;
   max-width: 400px;
   background: rgba(0, 0, 0, 0.5);
   padding: 25px;
@@ -124,6 +129,3 @@ button:hover {
     max-width: 60px;
   }
 }
-
-
-
