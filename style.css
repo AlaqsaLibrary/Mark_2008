@@ -47,7 +47,9 @@ header {
 .logo {
   max-width: 100px;
   height: auto;
-  filter: drop-shadow(4px 6px 6px rgba(255, 251, 0, 0.5));
+  /* filter: drop-shadow(6px  6px 6px rgba(255, 251, 0, 0.5)); */
+  filter: drop-shadow(6px  6px 6px  rgba(255, 251, 0, 0.5))
+          drop-shadow(-6px -6px 6px  rgba(255, 251, 0, 0.5));
 }
 
 h1 {
