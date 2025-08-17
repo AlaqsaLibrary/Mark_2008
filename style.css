@@ -6,6 +6,7 @@ body {
   text-align: center;
   color: #FFD700;
   background-color: #000;
+  height: 100vh;
 }
 
 /* اللوغو الخلفي */
@@ -44,13 +45,13 @@ header {
 }
 
 .logo {
-  max-width: 80px;
+  max-width: 100px;
   height: auto;
 }
 
 h1 {
   margin: 0;
-  font-size: 24px;
+  font-size: 4vh;
   color: #FFD700;
 }
 
@@ -67,7 +68,7 @@ h1 {
 label {
   display: block;
   margin: 15px 0 5px;
-  font-size: 18px;
+  font-size: 2.5vh;
 }
 
 input {
