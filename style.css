@@ -11,7 +11,9 @@ body {
   flex-direction: column;
   font-size: 3vh;
 }
-
+button{
+    font-size: 3vh;
+}
 /* اللوغو الخلفي */
 .back-logo-container {
   position: fixed;
@@ -164,5 +166,6 @@ button:hover {
     max-width: 60px;
   }
 }
+
 
 
