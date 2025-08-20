@@ -18,6 +18,14 @@ function calculate() {
   let percentage = ((total / maxTotal) * 100).toFixed(2);
   let percentage3 = ((total / 10) ).toFixed(2);
 
+  document.getElementById("result-button").style.visibility ="visible";
+  document.getElementById("main-result-container").style.visibility ="visible";
   document.getElementById("result3").innerHTML = " النسبةالمئوية من 30: " + percentage3 + " %";
-  document.getElementById("result").innerHTML = "النسبة المئوية: " + percentage + " %";
+  document.getElementById("result").innerHTML = " النسبة المئوية من 100: " + percentage + " %";
+}
+function rehidden(){
+  document.getElementById("result-button").style.visibility ="hidden";
+  document.getElementById("main-result-container").style.visibility ="hidden";
+
+
 }
