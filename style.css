@@ -103,7 +103,7 @@ button {
   padding: 12px 25px;
   border: none;
   border-radius: 10px;
-  font-size: 18px;
+  font-size: 3vh;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -132,3 +132,4 @@ button:hover {
     max-width: 60px;
   }
 }
+
