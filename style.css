@@ -5,7 +5,7 @@ body {
   font-family: 'Tahoma', sans-serif;
   text-align: center;
   color: #FFD700;
-  background-color: #00f;
+  background-color: #0ff;
   height: 100vh;
 }
 
@@ -132,4 +132,5 @@ button:hover {
     max-width: 60px;
   }
 }
+
 
