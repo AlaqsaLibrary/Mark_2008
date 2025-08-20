@@ -5,15 +5,13 @@ body {
   font-family: 'Tahoma', sans-serif;
   text-align: center;
   color: #FFD700;
-  background-color: #00F;
+  background-color: #000;
   height: 100vh;
   display: flex;
   flex-direction: column;
   font-size: 3vh;
 }
-button{
-    font-size: 3vh;
-}
+
 /* اللوغو الخلفي */
 .back-logo-container {
   position: fixed;
@@ -137,15 +135,12 @@ button {
   padding: 12px 25px;
   border: none;
   border-radius: 10px;
-  font-size: 18px;
+  font-size: 3vh;
   cursor: pointer;
   transition: 0.3s;
 }
 
-button:hover {
-  background: #FFC107;
-  transform: scale(1.05);
-}
+
 
 .result {
   margin-top: 20px;
@@ -166,6 +161,7 @@ button:hover {
     max-width: 60px;
   }
 }
+
 
 
 
