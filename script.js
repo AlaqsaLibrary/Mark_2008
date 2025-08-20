@@ -9,6 +9,8 @@ function calculate() {
       english < 0 || english > 100 ||
       islamic < 0 || islamic > 60 ||
       history < 0 || history > 40) {
+    document.getElementById("result-button").style.visibility ="visible";
+    document.getElementById("main-result-container").style.visibility ="visible";
     document.getElementById("result").innerHTML = "⚠️ الرجاء إدخال علامات ضمن الحدود المسموح بها.";
     return;
   }
@@ -29,3 +31,4 @@ function rehidden(){
 
 
 }
+
