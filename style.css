@@ -5,7 +5,7 @@ body {
   font-family: 'Tahoma', sans-serif;
   text-align: center;
   color: #FFD700;
-  background-color: #fff;
+  background-color: #000;
   height: 100vh;
 }
 
@@ -45,7 +45,7 @@ header {
 }
 
 .logo {
-  max-width: 100px;
+  max-width: 200px;
   height: auto;
   /* filter: drop-shadow(6px  6px 6px rgba(255, 251, 0, 0.5)); */
   filter: drop-shadow(6px  6px 6px  rgba(255, 251, 0, 0.5))
@@ -91,7 +91,7 @@ input {
   border-radius: 8px;
   background: rgba(0, 0, 0, 0.2);
   color: #FFD700;
-  font-size: 16px;
+  font-size: 3vh;
   text-align: center;
 }
 
@@ -132,5 +132,6 @@ button:hover {
     max-width: 60px;
   }
 }
+
 
 
