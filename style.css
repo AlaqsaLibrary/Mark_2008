@@ -5,7 +5,7 @@ body {
   font-family: 'Tahoma', sans-serif;
   text-align: center;
   color: #FFD700;
-  background-color: #050;
+  background-color: #ff0;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -166,5 +166,6 @@ font-size: clamp(12px , 2vw ,35px);
   }
 
 }
+
 
 
