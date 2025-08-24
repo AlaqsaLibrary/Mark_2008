@@ -5,7 +5,7 @@ body {
   font-family: 'Tahoma', sans-serif;
   text-align: center;
   color: #FFD700;
-  background-color: #790;
+  background-color: #000;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -146,12 +146,12 @@ button {
 .result {
   margin-top: 20px;
 }
-  .result-container label{
+/*   .result-container label{
 font-size: clamp(30px , 2.5vw ,45px);
   }
   .result-container div{
 font-size: clamp(25px , 2vw ,40px);
-  }
+  } */
     .result-container {
 width:80%;
   }
@@ -170,6 +170,7 @@ width:80%;
 
 
 }
+
 
 
 
