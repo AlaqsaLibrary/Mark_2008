@@ -5,7 +5,7 @@ body {
   font-family: 'Tahoma', sans-serif;
   text-align: center;
   color: #FFD700;
-  background-color: #ff0;
+  background-color: #000;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -147,10 +147,10 @@ button {
   margin-top: 20px;
 }
   .result-container label{
-font-size: clamp(15px , 2.5vw ,40px);
+font-size: clamp(20px , 2.5vw ,40px);
   }
   .result-container div{
-font-size: clamp(12px , 2vw ,35px);
+font-size: clamp(18px , 2vw ,35px);
   }
 /* تصميم متجاوب */
 @media (max-width: 600px) {
@@ -166,6 +166,7 @@ font-size: clamp(12px , 2vw ,35px);
   }
 
 }
+
 
 
 
