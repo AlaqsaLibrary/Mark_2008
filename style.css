@@ -147,10 +147,10 @@ button {
   margin-top: 20px;
 }
   .result-container label{
-font-size: clamp(20px , 2.5vw ,40px);
+font-size: clamp(30px , 2.5vw ,45px);
   }
   .result-container div{
-font-size: clamp(18px , 2vw ,35px);
+font-size: clamp(25px , 2vw ,40px);
   }
 /* تصميم متجاوب */
 @media (max-width: 600px) {
@@ -166,6 +166,7 @@ font-size: clamp(18px , 2vw ,35px);
   }
 
 }
+
 
 
 
