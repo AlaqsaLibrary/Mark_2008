@@ -155,34 +155,3 @@ font-size: clamp(25px , 2vw ,40px);
     .result-container {
 width:80%;
   }
-/* تصميم متجاوب */
-@media (max-width: 1200px) {
-  .container {
-    width: 90%;
-    padding: 20px;
-  }
-  h1 {
-    font-size: 20px;
-  }
-  .logo {
-    max-width: 90px;
-  }
-
- .result-container label{
-font-size: clamp(30px , 2.5vw ,45px);
-  }
-  .result-container div{
-font-size: clamp(25px , 2vw ,40px);
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
