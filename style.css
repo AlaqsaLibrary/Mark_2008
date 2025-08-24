@@ -5,7 +5,7 @@ body {
   font-family: 'Tahoma', sans-serif;
   text-align: center;
   color: #FFD700;
-  background-color: #00f;
+  background-color: #790;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -152,6 +152,9 @@ font-size: clamp(30px , 2.5vw ,45px);
   .result-container div{
 font-size: clamp(25px , 2vw ,40px);
   }
+    .result-container {
+width:80%;
+  }
 /* تصميم متجاوب */
 @media (max-width: 600px) {
   .container {
@@ -164,11 +167,10 @@ font-size: clamp(25px , 2vw ,40px);
   .logo {
     max-width: 60px;
   }
-    .result-container {
-width:80%;
-  }
+
 
 }
+
 
 
 
